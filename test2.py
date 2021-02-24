@@ -1,0 +1,1 @@
+print("wersja testowa")
