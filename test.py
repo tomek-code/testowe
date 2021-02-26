@@ -1,1 +1,8 @@
-print(f"hello world{4}")
+
+
+def my_function():
+    print("this is my function!")
+    print("test")
+
+
+my_function()
