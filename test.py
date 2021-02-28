@@ -1,8 +1,5 @@
 
 
-def my_function():
-    print("this is my function!")
-    print("test154")
 
-
-my_function()
+my_function("this is argument 1", "this is second argument")
+my_function("strings", "hello world")
