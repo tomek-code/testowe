@@ -1,4 +1,5 @@
 import os
+import send2trash
 
 cwd = os.getcwd()
 
@@ -20,7 +21,7 @@ x = input()
 if x == 'yes':
     for filename in os.listdir():
         if filename.endswith('.txt'):
-            os.unlink(filename) 
+            send2trash.send2trash(filename) 
 else:
     print('Files were not removed')
     
